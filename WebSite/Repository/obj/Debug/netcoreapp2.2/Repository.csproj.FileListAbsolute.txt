@@ -9,3 +9,11 @@ C:\Users\lenovo\source\repos\WebSite\Repository\obj\Debug\netcoreapp2.2\Reposito
 C:\Users\lenovo\source\repos\WebSite\Repository\bin\Debug\netcoreapp2.2\Infrastructures.dll
 C:\Users\lenovo\source\repos\WebSite\Repository\bin\Debug\netcoreapp2.2\Infrastructures.pdb
 C:\Users\lenovo\source\repos\WebSite\Repository\obj\Debug\netcoreapp2.2\Repository.csproj.CopyComplete
+C:\Users\lenovo\Documents\GitHub\Monster\WebSite\Repository\bin\Debug\netcoreapp2.2\Repository.deps.json
+C:\Users\lenovo\Documents\GitHub\Monster\WebSite\Repository\bin\Debug\netcoreapp2.2\Repository.dll
+C:\Users\lenovo\Documents\GitHub\Monster\WebSite\Repository\bin\Debug\netcoreapp2.2\Repository.pdb
+C:\Users\lenovo\Documents\GitHub\Monster\WebSite\Repository\obj\Debug\netcoreapp2.2\Repository.csprojAssemblyReference.cache
+C:\Users\lenovo\Documents\GitHub\Monster\WebSite\Repository\obj\Debug\netcoreapp2.2\Repository.AssemblyInfoInputs.cache
+C:\Users\lenovo\Documents\GitHub\Monster\WebSite\Repository\obj\Debug\netcoreapp2.2\Repository.AssemblyInfo.cs
+C:\Users\lenovo\Documents\GitHub\Monster\WebSite\Repository\obj\Debug\netcoreapp2.2\Repository.dll
+C:\Users\lenovo\Documents\GitHub\Monster\WebSite\Repository\obj\Debug\netcoreapp2.2\Repository.pdb
