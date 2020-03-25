@@ -1,0 +1,8 @@
+C:\Users\lenovo\source\repos\WebSite\B\bin\Debug\netcoreapp2.2\Infrastructures.deps.json
+C:\Users\lenovo\source\repos\WebSite\B\bin\Debug\netcoreapp2.2\Infrastructures.dll
+C:\Users\lenovo\source\repos\WebSite\B\obj\Debug\netcoreapp2.2\Infrastructures.csprojAssemblyReference.cache
+C:\Users\lenovo\source\repos\WebSite\B\obj\Debug\netcoreapp2.2\Infrastructures.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\WebSite\B\obj\Debug\netcoreapp2.2\Infrastructures.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\WebSite\B\bin\Debug\netcoreapp2.2\Infrastructures.pdb
+C:\Users\lenovo\source\repos\WebSite\B\obj\Debug\netcoreapp2.2\Infrastructures.dll
+C:\Users\lenovo\source\repos\WebSite\B\obj\Debug\netcoreapp2.2\Infrastructures.pdb

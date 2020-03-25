@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSite", "WebSite\WebSite.csproj", "{43AE6259-A901-4BD1-A7BD-101B6ABCBCEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructures", "B\Infrastructures.csproj", "{EB062782-C4DE-4722-A647-7D4236FBF001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{B557864F-79ED-449E-A250-C0C781E452A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43AE6259-A901-4BD1-A7BD-101B6ABCBCEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43AE6259-A901-4BD1-A7BD-101B6ABCBCEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43AE6259-A901-4BD1-A7BD-101B6ABCBCEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43AE6259-A901-4BD1-A7BD-101B6ABCBCEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB062782-C4DE-4722-A647-7D4236FBF001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB062782-C4DE-4722-A647-7D4236FBF001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB062782-C4DE-4722-A647-7D4236FBF001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB062782-C4DE-4722-A647-7D4236FBF001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B557864F-79ED-449E-A250-C0C781E452A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B557864F-79ED-449E-A250-C0C781E452A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B557864F-79ED-449E-A250-C0C781E452A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B557864F-79ED-449E-A250-C0C781E452A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BADCBDA-7440-4C5E-975C-3D627F383047}
+	EndGlobalSection
+EndGlobal

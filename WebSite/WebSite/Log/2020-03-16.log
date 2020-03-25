@@ -1,0 +1,107 @@
+2020-03-16 14:46:04.6112|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/2.0 GET https://localhost:44382/   
+2020-03-16 14:46:04.9926|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 395.988ms 404 text/plain 
+2020-03-16 14:57:32.9425|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/2.0 GET https://localhost:44382/   
+2020-03-16 14:57:33.2571|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 324.1195ms 404 text/plain 
+2020-03-16 15:29:06.3046|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/2.0 GET https://localhost:44382/   
+2020-03-16 15:29:06.6570|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 360.7466ms 404 text/plain 
+2020-03-16 16:16:08.6892|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/2.0 GET https://localhost:44382/   
+2020-03-16 16:16:09.3788|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 699.0189ms 404 text/plain 
+2020-03-16 16:16:11.6008|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/2.0 GET https://localhost:44382/Home/index   
+2020-03-16 16:16:12.0174|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller WebSite.Controllers.HomeController (WebSite). 
+2020-03-16 16:16:12.0530|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method WebSite.Controllers.HomeController.Index (WebSite) - Validation state: Valid 
+2020-03-16 16:16:21.3439|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action method WebSite.Controllers.HomeController.Index (WebSite), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 9054.5004ms. 
+2020-03-16 16:16:21.4614|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|INFO|Executing ObjectResult, writing value of type 'System.String'. 
+2020-03-16 16:16:21.5104|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action WebSite.Controllers.HomeController.Index (WebSite) in 9476.2083ms 
+2020-03-16 16:16:21.5104|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 9913.1527ms 200 text/plain; charset=utf-8 
+2020-03-16 16:42:46.9194|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/2.0 GET https://localhost:44382/   
+2020-03-16 16:42:47.3878|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 506.6022ms 404 text/plain 
+2020-03-16 16:43:37.1333|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/2.0 GET https://localhost:44382/   
+2020-03-16 16:43:37.4855|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 360.6907ms 404 text/plain 
+2020-03-16 16:43:40.6675|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/2.0 GET https://localhost:44382/Home/index   
+2020-03-16 16:43:40.7054|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller WebSite.Controllers.HomeController (WebSite). 
+2020-03-16 16:43:40.7229|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executing action method WebSite.Controllers.HomeController.Index (WebSite) - Validation state: Valid 
+2020-03-16 16:43:47.4309|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action method WebSite.Controllers.HomeController.Index (WebSite), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6699.089ms. 
+2020-03-16 16:43:47.4427|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|INFO|Executing ObjectResult, writing value of type 'System.String'. 
+2020-03-16 16:43:47.4427|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action WebSite.Controllers.HomeController.Index (WebSite) in 6737.642ms 
+2020-03-16 16:43:47.4427|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 6787.996ms 200 text/plain; charset=utf-8 
+2020-03-16 16:50:03.0243||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request starting HTTP/2.0 GET https://localhost:44382/    
+
+2020-03-16 16:50:03.3468||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request finished in 329.7842ms 404 text/plain  
+
+2020-03-16 16:50:05.6987||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request starting HTTP/2.0 GET https://localhost:44382/Home/index    
+
+2020-03-16 16:50:05.7292||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller WebSite.Controllers.HomeController (WebSite).  
+
+2020-03-16 16:50:05.7476||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executing action method WebSite.Controllers.HomeController.Index (WebSite) - Validation state: Valid  
+
+2020-03-16 16:50:08.5244||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executed action method WebSite.Controllers.HomeController.Index (WebSite), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2767.1453ms.  
+
+2020-03-16 16:50:08.5410||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor 
+Executing ObjectResult, writing value of type 'System.String'.  
+
+2020-03-16 16:50:08.5487||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executed action WebSite.Controllers.HomeController.Index (WebSite) in 2811.3235ms  
+
+2020-03-16 16:50:08.5487||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request finished in 2853.62ms 200 text/plain; charset=utf-8  
+
+2020-03-16 16:53:09.4843||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request starting HTTP/2.0 GET https://localhost:44382/    
+
+2020-03-16 16:53:09.8117||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request finished in 333.2071ms 404 text/plain  
+
+2020-03-16 16:53:14.1252||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request starting HTTP/2.0 GET https://localhost:44382/Home/index    
+
+2020-03-16 16:53:14.2015||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller WebSite.Controllers.HomeController (WebSite).  
+
+2020-03-16 16:53:14.2403||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executing action method WebSite.Controllers.HomeController.Index (WebSite) - Validation state: Valid  
+
+2020-03-16 16:53:20.2803||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request starting HTTP/2.0 GET https://localhost:44382/Home/index    
+
+2020-03-16 16:53:20.2851||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller WebSite.Controllers.HomeController (WebSite).  
+
+2020-03-16 16:53:20.2851||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executing action method WebSite.Controllers.HomeController.Index (WebSite) - Validation state: Valid  
+
+2020-03-16 16:53:20.2851||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executed action method WebSite.Controllers.HomeController.Index (WebSite), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6020.7953ms.  
+
+2020-03-16 16:53:20.5483||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executed action method WebSite.Controllers.HomeController.Index (WebSite), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 250.5128ms.  
+
+2020-03-16 16:53:20.5856||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor 
+Executing ObjectResult, writing value of type 'System.String'.  
+
+2020-03-16 16:53:20.5856||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor 
+Executing ObjectResult, writing value of type 'System.String'.  
+
+2020-03-16 16:53:20.6009||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executed action WebSite.Controllers.HomeController.Index (WebSite) in 302.0969ms  
+
+2020-03-16 16:53:20.6009||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executed action WebSite.Controllers.HomeController.Index (WebSite) in 6382.2737ms  
+
+2020-03-16 16:53:20.6009||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request finished in 6488.7193ms 200 text/plain; charset=utf-8  
+
+2020-03-16 16:53:20.6009||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request finished in 325.3016ms 200 text/plain; charset=utf-8  
+
+2020-03-16 16:53:30.2757||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request starting HTTP/2.0 GET https://localhost:44382/Home/index/11    
+
+2020-03-16 16:53:30.2757||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request finished in 5.1582ms 404 text/plain  
+

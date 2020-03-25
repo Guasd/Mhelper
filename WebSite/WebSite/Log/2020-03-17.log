@@ -1,0 +1,285 @@
+2020-03-17 16:44:55.0891||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request starting HTTP/2.0 GET https://localhost:44382/    
+
+2020-03-17 16:44:55.5794||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request finished in 497.9994ms 404 text/plain  
+
+2020-03-17 16:44:55.6741||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request starting HTTP/2.0 GET https://localhost:44382/favicon.ico    
+
+2020-03-17 16:44:55.6741||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request finished in 10.7926ms 404 text/plain  
+
+2020-03-17 16:47:24.5432||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request starting HTTP/1.1 GET https://localhost:44382/Arms/GetArmsGroup multipart/form-data; boundary=--------------------------759282849231707819991952 161  
+
+2020-03-17 16:47:24.6876||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Route matched with {action = "GetArmsGroup", controller = "Arms"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetArmsGroup(Int32) on controller WebSite.Controllers.ArmsController (WebSite).  
+
+2020-03-17 16:47:25.0027||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executing action method WebSite.Controllers.ArmsController.GetArmsGroup (WebSite) - Validation state: Valid  
+
+2020-03-17 16:47:39.4281||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executed action WebSite.Controllers.ArmsController.GetArmsGroup (WebSite) in 14727.5502ms  
+
+2020-03-17 16:47:47.3429||ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware 
+An unhandled exception has occurred while executing the request. Unknown column 'ar.Name' in 'field list' 
+
+2020-03-17 16:47:47.3730||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Error() on controller WebSite.Controllers.HomeController (WebSite).  
+
+2020-03-17 16:47:47.3776||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executing action method WebSite.Controllers.HomeController.Error (WebSite) - Validation state: Valid  
+
+2020-03-17 16:47:47.5481||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executed action method WebSite.Controllers.HomeController.Error (WebSite), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 153.4481ms.  
+
+2020-03-17 16:47:47.6929||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor 
+Executing ObjectResult, writing value of type 'System.String'.  
+
+2020-03-17 16:47:48.7729||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executed action WebSite.Controllers.HomeController.Error (WebSite) in 1396.3474ms  
+
+2020-03-17 16:47:48.7729||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request finished in 24236.5035ms 200 text/plain; charset=utf-8  
+
+2020-03-17 16:48:23.8421||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request starting HTTP/1.1 GET https://localhost:44382/Arms/GetArmsGroup multipart/form-data; boundary=--------------------------537083264971569848274726 161  
+
+2020-03-17 16:48:23.8551||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Route matched with {action = "GetArmsGroup", controller = "Arms"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetArmsGroup(Int32) on controller WebSite.Controllers.ArmsController (WebSite).  
+
+2020-03-17 16:48:23.8646||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executing action method WebSite.Controllers.ArmsController.GetArmsGroup (WebSite) - Validation state: Valid  
+
+2020-03-17 16:48:26.8015||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executed action WebSite.Controllers.ArmsController.GetArmsGroup (WebSite) in 2902.2932ms  
+
+2020-03-17 16:48:26.8268||ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware 
+An unhandled exception has occurred while executing the request. Unknown column 'ar.Name' in 'field list' 
+
+2020-03-17 16:48:26.8355||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Error() on controller WebSite.Controllers.HomeController (WebSite).  
+
+2020-03-17 16:48:26.8355||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executing action method WebSite.Controllers.HomeController.Error (WebSite) - Validation state: Valid  
+
+2020-03-17 16:53:07.7867||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request starting HTTP/2.0 GET https://localhost:44382/    
+
+2020-03-17 16:53:08.3216||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request finished in 555.7075ms 404 text/plain  
+
+2020-03-17 16:53:14.6741||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request starting HTTP/1.1 GET https://localhost:44382/Arms/GetArmsGroup multipart/form-data; boundary=--------------------------564002832083883564822738 161  
+
+2020-03-17 16:53:14.7218||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Route matched with {action = "GetArmsGroup", controller = "Arms"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetArmsGroup(Int32) on controller WebSite.Controllers.ArmsController (WebSite).  
+
+2020-03-17 16:53:14.8041||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executing action method WebSite.Controllers.ArmsController.GetArmsGroup (WebSite) - Validation state: Valid  
+
+2020-03-17 16:53:19.9427||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executed action WebSite.Controllers.ArmsController.GetArmsGroup (WebSite) in 5209.2066ms  
+
+2020-03-17 16:53:19.9947||ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware 
+An unhandled exception has occurred while executing the request. Unknown column 'ar.Name' in 'field list' 
+
+2020-03-17 16:53:20.0058||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Error() on controller WebSite.Controllers.HomeController (WebSite).  
+
+2020-03-17 16:53:20.0058||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executing action method WebSite.Controllers.HomeController.Error (WebSite) - Validation state: Valid  
+
+2020-03-17 17:06:08.1078||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request starting HTTP/2.0 GET https://localhost:44382/    
+
+2020-03-17 17:06:08.6738||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request finished in 568.0341ms 404 text/plain  
+
+2020-03-17 17:06:15.7024||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request starting HTTP/1.1 GET https://localhost:44382/Arms/GetArmsGroup multipart/form-data; boundary=--------------------------397526656830359621452642 161  
+
+2020-03-17 17:06:15.7583||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Route matched with {action = "GetArmsGroup", controller = "Arms"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetArmsGroup(Int32) on controller WebSite.Controllers.ArmsController (WebSite).  
+
+2020-03-17 17:06:15.8545||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executing action method WebSite.Controllers.ArmsController.GetArmsGroup (WebSite) - Validation state: Valid  
+
+2020-03-17 17:06:22.4758||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executed action WebSite.Controllers.ArmsController.GetArmsGroup (WebSite) in 6704.1168ms  
+
+2020-03-17 17:06:22.5356||ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware 
+An unhandled exception has occurred while executing the request. Unknown column 'ar.Name' in 'field list' 
+
+2020-03-17 17:06:22.5356||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Error() on controller WebSite.Controllers.HomeController (WebSite).  
+
+2020-03-17 17:06:22.5502||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executing action method WebSite.Controllers.HomeController.Error (WebSite) - Validation state: Valid  
+
+2020-03-17 17:06:26.6855||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executed action method WebSite.Controllers.HomeController.Error (WebSite), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4126.8011ms.  
+
+2020-03-17 17:06:26.7035||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor 
+Executing ObjectResult, writing value of type 'System.String'.  
+
+2020-03-17 17:06:26.7141||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executed action WebSite.Controllers.HomeController.Error (WebSite) in 4162.8882ms  
+
+2020-03-17 17:06:26.7141||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request finished in 11016.4094ms 200 text/plain; charset=utf-8  
+
+2020-03-17 17:16:58.9338||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request starting HTTP/2.0 GET https://localhost:44382/    
+
+2020-03-17 17:16:59.2588||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request finished in 334.6053ms 404 text/plain  
+
+2020-03-17 17:17:16.8120||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request starting HTTP/1.1 GET https://localhost:44382/Arms/GetArmsGroup multipart/form-data; boundary=--------------------------065646415689819902505272 161  
+
+2020-03-17 17:17:16.8664||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Route matched with {action = "GetArmsGroup", controller = "Arms"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetArmsGroup(Int32) on controller WebSite.Controllers.ArmsController (WebSite).  
+
+2020-03-17 17:17:16.9492||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executing action method WebSite.Controllers.ArmsController.GetArmsGroup (WebSite) - Validation state: Valid  
+
+2020-03-17 17:17:22.5792||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executed action WebSite.Controllers.ArmsController.GetArmsGroup (WebSite) in 5696.8395ms  
+
+2020-03-17 17:17:22.6300||ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware 
+An unhandled exception has occurred while executing the request. Unknown column 'ar.Name' in 'field list' 
+
+2020-03-17 17:17:22.6300||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Error() on controller WebSite.Controllers.HomeController (WebSite).  
+
+2020-03-17 17:17:22.6481||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executing action method WebSite.Controllers.HomeController.Error (WebSite) - Validation state: Valid  
+
+2020-03-17 17:17:26.9132||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executed action method WebSite.Controllers.HomeController.Error (WebSite), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4255.0721ms.  
+
+2020-03-17 17:17:26.9336||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor 
+Executing ObjectResult, writing value of type 'System.String'.  
+
+2020-03-17 17:17:26.9431||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executed action WebSite.Controllers.HomeController.Error (WebSite) in 4298.6999ms  
+
+2020-03-17 17:17:26.9431||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request finished in 10135.1175ms 200 text/plain; charset=utf-8  
+
+2020-03-17 17:18:52.2575||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request starting HTTP/2.0 GET https://localhost:44382/    
+
+2020-03-17 17:18:52.5917||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request finished in 341.011ms 404 text/plain  
+
+2020-03-17 17:20:42.1357||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request starting HTTP/1.1 GET https://localhost:44382/Arms/GetArmsGroup multipart/form-data; boundary=--------------------------546690721006585834308437 161  
+
+2020-03-17 17:20:42.2014||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Route matched with {action = "GetArmsGroup", controller = "Arms"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetArmsGroup(Int32) on controller WebSite.Controllers.ArmsController (WebSite).  
+
+2020-03-17 17:20:42.3048||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executing action method WebSite.Controllers.ArmsController.GetArmsGroup (WebSite) - Validation state: Valid  
+
+2020-03-17 17:20:47.2334||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executed action WebSite.Controllers.ArmsController.GetArmsGroup (WebSite) in 5013.8812ms  
+
+2020-03-17 17:20:47.2900||ERROR|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware 
+An unhandled exception has occurred while executing the request. Unknown column 'ar.Name' in 'field list' 
+
+2020-03-17 17:20:47.3005||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Route matched with {action = "Error", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Error() on controller WebSite.Controllers.HomeController (WebSite).  
+
+2020-03-17 17:20:47.3005||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executing action method WebSite.Controllers.HomeController.Error (WebSite) - Validation state: Valid  
+
+2020-03-17 17:20:50.1490||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executed action method WebSite.Controllers.HomeController.Error (WebSite), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2808.6002ms.  
+
+2020-03-17 17:20:50.1999||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor 
+Executing ObjectResult, writing value of type 'System.String'.  
+
+2020-03-17 17:20:50.2236||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executed action WebSite.Controllers.HomeController.Error (WebSite) in 2909.8522ms  
+
+2020-03-17 17:20:50.2638||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request finished in 8094.9992ms 200 text/plain; charset=utf-8  
+
+2020-03-17 17:43:40.1835||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request starting HTTP/2.0 GET https://localhost:44382/    
+
+2020-03-17 17:43:40.5425||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request finished in 367.0009ms 404 text/plain  
+
+2020-03-17 17:43:45.2537||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request starting HTTP/1.1 GET https://localhost:44382/Arms/GetArmsGroup multipart/form-data; boundary=--------------------------231481715972254045025635 161  
+
+2020-03-17 17:43:45.3583||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Route matched with {action = "GetArmsGroup", controller = "Arms"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetArmsGroup(Int32) on controller WebSite.Controllers.ArmsController (WebSite).  
+
+2020-03-17 17:43:45.4376||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executing action method WebSite.Controllers.ArmsController.GetArmsGroup (WebSite) - Validation state: Valid  
+
+2020-03-17 17:43:53.2115||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executed action method WebSite.Controllers.ArmsController.GetArmsGroup (WebSite), returned result Microsoft.AspNetCore.Mvc.OkResult in 7765.8193ms.  
+
+2020-03-17 17:43:53.2252||INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult 
+Executing HttpStatusCodeResult, setting HTTP status code 200  
+
+2020-03-17 17:43:53.2252||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executed action WebSite.Controllers.ArmsController.GetArmsGroup (WebSite) in 7862.8999ms  
+
+2020-03-17 17:43:53.2389||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request finished in 7986.0857ms 200   
+
+2020-03-17 17:44:16.2096||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request starting HTTP/1.1 GET https://localhost:44382/Arms/GetArmsGroup multipart/form-data; boundary=--------------------------352461176330456924480594 161  
+
+2020-03-17 17:44:16.2096||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Route matched with {action = "GetArmsGroup", controller = "Arms"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetArmsGroup(Int32) on controller WebSite.Controllers.ArmsController (WebSite).  
+
+2020-03-17 17:44:16.2333||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executing action method WebSite.Controllers.ArmsController.GetArmsGroup (WebSite) - Validation state: Valid  
+
+2020-03-17 17:44:16.2390||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executed action method WebSite.Controllers.ArmsController.GetArmsGroup (WebSite), returned result Microsoft.AspNetCore.Mvc.OkResult in 3.0835ms.  
+
+2020-03-17 17:44:16.2390||INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult 
+Executing HttpStatusCodeResult, setting HTTP status code 200  
+
+2020-03-17 17:44:16.2390||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executed action WebSite.Controllers.ArmsController.GetArmsGroup (WebSite) in 24.1547ms  
+
+2020-03-17 17:44:16.2390||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request finished in 43.2283ms 200   
+
+2020-03-17 17:44:48.4607||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request starting HTTP/2.0 GET https://localhost:44382/    
+
+2020-03-17 17:44:48.7887||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request finished in 335.7726ms 404 text/plain  
+
+2020-03-17 17:45:02.7158||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request starting HTTP/1.1 GET https://localhost:44382/Arms/GetArmsGroup multipart/form-data; boundary=--------------------------556293103856031586681184 161  
+
+2020-03-17 17:45:02.8249||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Route matched with {action = "GetArmsGroup", controller = "Arms"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetArmsGroup(Int32) on controller WebSite.Controllers.ArmsController (WebSite).  
+
+2020-03-17 17:45:03.0325||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executing action method WebSite.Controllers.ArmsController.GetArmsGroup (WebSite) - Validation state: Valid  
+
+2020-03-17 17:45:04.4360||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executed action method WebSite.Controllers.ArmsController.GetArmsGroup (WebSite), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1385.9847ms.  
+
+2020-03-17 17:45:04.4685||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor 
+Executing ObjectResult, writing value of type 'System.Data.DataTable'.  
+
+2020-03-17 17:45:04.5269||INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker 
+Executed action WebSite.Controllers.ArmsController.GetArmsGroup (WebSite) in 1684.7298ms  
+
+2020-03-17 17:45:04.5269||INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost 
+Request finished in 1818.6106ms 200 application/json; charset=utf-8  
+

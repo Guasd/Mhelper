@@ -1,0 +1,4 @@
+2020-03-16 14:26:13.5801|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/2.0 GET https://localhost:44382/   
+2020-03-16 14:26:14.5116|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 902.8451ms 404 text/plain 
+2020-03-16 14:26:14.6875|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/2.0 GET https://localhost:44382/favicon.ico   
+2020-03-16 14:26:14.7248|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 15.9941ms 404 text/plain 

@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "MonDb": "server=127.0.0.1;user id=sa;password=123456;database=monsterdb;charset=utf8;pooling=true;"
+  }
+}
