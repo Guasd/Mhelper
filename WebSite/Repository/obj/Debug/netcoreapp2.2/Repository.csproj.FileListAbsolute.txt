@@ -17,3 +17,6 @@ C:\Users\lenovo\Documents\GitHub\Monster\WebSite\Repository\obj\Debug\netcoreapp
 C:\Users\lenovo\Documents\GitHub\Monster\WebSite\Repository\obj\Debug\netcoreapp2.2\Repository.AssemblyInfo.cs
 C:\Users\lenovo\Documents\GitHub\Monster\WebSite\Repository\obj\Debug\netcoreapp2.2\Repository.dll
 C:\Users\lenovo\Documents\GitHub\Monster\WebSite\Repository\obj\Debug\netcoreapp2.2\Repository.pdb
+C:\Users\lenovo\Documents\GitHub\Monster\WebSite\Repository\bin\Debug\netcoreapp2.2\Infrastructures.dll
+C:\Users\lenovo\Documents\GitHub\Monster\WebSite\Repository\bin\Debug\netcoreapp2.2\Infrastructures.pdb
+C:\Users\lenovo\Documents\GitHub\Monster\WebSite\Repository\obj\Debug\netcoreapp2.2\Repository.csproj.CopyComplete

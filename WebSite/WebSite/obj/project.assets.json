@@ -5224,11 +5224,24 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
+      "Infrastructures/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Infrastructures.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructures.dll": {}
+        }
+      },
       "Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
-          "C:\\Users\\lenovo\\Documents\\GitHub\\Monster\\WebSite\\B\\Infrastructures.csproj": "1.0.0",
+          "Infrastructures": "1.0.0",
           "sqlSugarCore": "5.0.0.11"
         },
         "compile": {
@@ -14363,6 +14376,11 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
+    "Infrastructures/1.0.0": {
+      "type": "project",
+      "path": "../Infrastructures/Infrastructures.csproj",
+      "msbuildProject": "../Infrastructures/Infrastructures.csproj"
+    },
     "Repository/1.0.0": {
       "type": "project",
       "path": "../Repository/Repository.csproj",
@@ -14372,7 +14390,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 7.0.0",
-      "C:\\Users\\lenovo\\Documents\\GitHub\\Monster\\WebSite\\B\\Infrastructures.csproj",
+      "Infrastructures >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
@@ -14411,8 +14429,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\lenovo\\Documents\\GitHub\\Monster\\WebSite\\B\\Infrastructures.csproj": {
-              "projectPath": "C:\\Users\\lenovo\\Documents\\GitHub\\Monster\\WebSite\\B\\Infrastructures.csproj"
+            "C:\\Users\\lenovo\\Documents\\GitHub\\Monster\\WebSite\\Infrastructures\\Infrastructures.csproj": {
+              "projectPath": "C:\\Users\\lenovo\\Documents\\GitHub\\Monster\\WebSite\\Infrastructures\\Infrastructures.csproj"
             },
             "C:\\Users\\lenovo\\Documents\\GitHub\\Monster\\WebSite\\Repository\\Repository.csproj": {
               "projectPath": "C:\\Users\\lenovo\\Documents\\GitHub\\Monster\\WebSite\\Repository\\Repository.csproj"
@@ -14488,16 +14506,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "找不到项目“C:\\Users\\lenovo\\Documents\\GitHub\\Monster\\WebSite\\B\\Infrastructures.csproj”。请检查项目引用是否有效以及项目文件是否存在。",
-      "libraryId": "C:\\Users\\lenovo\\Documents\\GitHub\\Monster\\WebSite\\B\\Infrastructures.csproj",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.2"
-      ]
-    }
-  ]
+  }
 }

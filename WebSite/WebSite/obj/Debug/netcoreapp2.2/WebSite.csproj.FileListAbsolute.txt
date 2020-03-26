@@ -44,3 +44,5 @@ C:\Users\lenovo\Documents\GitHub\Monster\WebSite\WebSite\obj\Debug\netcoreapp2.2
 C:\Users\lenovo\Documents\GitHub\Monster\WebSite\WebSite\obj\Debug\netcoreapp2.2\WebSite.csproj.CopyComplete
 C:\Users\lenovo\Documents\GitHub\Monster\WebSite\WebSite\obj\Debug\netcoreapp2.2\WebSite.dll
 C:\Users\lenovo\Documents\GitHub\Monster\WebSite\WebSite\obj\Debug\netcoreapp2.2\WebSite.pdb
+C:\Users\lenovo\Documents\GitHub\Monster\WebSite\WebSite\bin\Debug\netcoreapp2.2\Infrastructures.dll
+C:\Users\lenovo\Documents\GitHub\Monster\WebSite\WebSite\bin\Debug\netcoreapp2.2\Infrastructures.pdb

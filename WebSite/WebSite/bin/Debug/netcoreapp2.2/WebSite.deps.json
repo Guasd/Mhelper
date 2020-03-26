@@ -908,6 +908,17 @@
           "ref/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
+      "Infrastructures/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "Infrastructures.dll": {}
+        },
+        "compile": {
+          "Infrastructures.dll": {}
+        }
+      },
       "Repository/1.0.0": {
         "dependencies": {
           "Infrastructures": "1.0.0",
@@ -4079,12 +4090,6 @@
           "System.Xml.XPath": "4.3.0"
         },
         "compileOnly": true
-      },
-      "Infrastructures/1.0.0": {
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.3"
-        },
-        "compileOnly": true
       }
     }
   },
@@ -4464,6 +4469,11 @@
       "sha512": "sha512-Zm2BdeanuncYs3NhCj4c9e1x3EXFzFBVv2wPEc/Dj4ZbI9R8ecLSR5frAsx4zJCPBtKQreQ7Q/KxJEohJZbfzA==",
       "path": "system.xml.xpath.xmldocument/4.0.1",
       "hashPath": "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
+    },
+    "Infrastructures/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Repository/1.0.0": {
       "type": "project",
@@ -6415,11 +6425,6 @@
       "sha512": "sha512-jw9oHHEIVW53mHY9PgrQa98Xo2IZ0ZjrpdOTmtvk+Rvg4tq7dydmxdNqUvJ5YwjDqhn75mBXWttWjiKhWP53LQ==",
       "path": "system.xml.xpath.xdocument/4.3.0",
       "hashPath": "system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
-    },
-    "Infrastructures/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

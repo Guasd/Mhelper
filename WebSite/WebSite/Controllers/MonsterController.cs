@@ -18,13 +18,6 @@ namespace WebSite.Controllers
     {
         public MhDbContext Client = MhDbContext.GetInstance();
 
-        [HttpGet]
-        [Authorize]
-        public ActionResult<IEnumerable<string>> GetName()
-        {
-            return new string[] { "value1", "value2" };
-        }
-
         /// <summary>
         /// 获取怪物总列表
         /// </summary>
@@ -112,7 +105,7 @@ namespace WebSite.Controllers
         /// <param name="Name"></param>
         /// <returns></returns>
         [HttpGet]
-        public IActionResult GetInfoByName([FromQuery]int TypeId, int Id, String Name)
+        public IActionResult GetInfoByName([FromQuery]int TypeId, [FromQuery]int Id, [FromQuery]String Name)
         {
             string JsonResult = string.Empty;
             var result = new DataTable();
@@ -120,14 +113,14 @@ namespace WebSite.Controllers
             switch (TypeId)
             {
                 case 1:  //怪物信息
-                    result = Client.Db.Ado.UseStoredProcedure().GetDataTable("getmonsterbyid", new { Id = Id });
+                    result = Client.Db.Ado.UseStoredProcedure().GetDataTable("sp_GetMonsterById", new { Id = Id });
                     JsonResult = JsonConvert.SerializeObject(result);
                     break;
                 case 2:  //素材信息
-                    result = Client.Db.Ado.UseStoredProcedure().GetDataTable("", new { Id = Id });
+                    result = Client.Db.Ado.UseStoredProcedure().GetDataTable("sp_Getmaterial", new { Id = Id });
                     break;
                 case 3:  //地区信息
-                    result = Client.Db.Ado.UseStoredProcedure().GetDataTable("", new { Id = Id });
+                    result = Client.Db.Ado.UseStoredProcedure().GetDataTable("sp_GetAreas", new { Id = Id });
                     break;
                 default:
                     Console.WriteLine("TypeId不正确,请重新输入");

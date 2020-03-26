@@ -734,11 +734,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lenovo\\source\\repos\\WebSite\\B\\Infrastructures.csproj",
+      "projectUniqueName": "C:\\Users\\lenovo\\Documents\\GitHub\\Monster\\WebSite\\Infrastructures\\Infrastructures.csproj",
       "projectName": "Infrastructures",
-      "projectPath": "C:\\Users\\lenovo\\source\\repos\\WebSite\\B\\Infrastructures.csproj",
+      "projectPath": "C:\\Users\\lenovo\\Documents\\GitHub\\Monster\\WebSite\\Infrastructures\\Infrastructures.csproj",
       "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lenovo\\source\\repos\\WebSite\\B\\obj\\",
+      "outputPath": "C:\\Users\\lenovo\\Documents\\GitHub\\Monster\\WebSite\\Infrastructures\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
