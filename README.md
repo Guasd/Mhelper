@@ -1,4 +1,4 @@
-Mhelper(怪猎查询器API)
+Mhelper(怪猎助手API)
 <br/>
 项目概况图:
 <br/>
