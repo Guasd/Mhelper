@@ -1,4 +1,3 @@
-# Monster
 Mhelper(怪猎查询器API)
 <br/>
 项目概况图:
